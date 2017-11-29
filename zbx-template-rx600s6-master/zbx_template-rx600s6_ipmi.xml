@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2017-11-29T11:53:18Z</date>
+    <date>2017-11-29T11:51:20Z</date>
     <groups>
         <group>
             <name>Fujitsu Server</name>
@@ -12,8 +12,8 @@
     </groups>
     <templates>
         <template>
-            <template>Fujitsu PRIMERGY RX200 S6</template>
-            <name>Fujitsu PRIMERGY RX200 S6</name>
+            <template>Fujitsu PRIMERGY RX600 S6</template>
+            <name>Fujitsu PRIMERGY RX600 S6</name>
             <description/>
             <groups>
                 <group>
@@ -117,6 +117,88 @@
                     <master_item/>
                 </item>
                 <item>
+                    <name>Baseboard1</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.Baseboard1.temp</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>°C</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>Baseboard1</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Temperature</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>Baseboard2</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.Baseboard2.temp</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>°C</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>Baseboard2</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Temperature</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
                     <name>BATT 3.0V</name>
                     <type>12</type>
                     <snmp_community/>
@@ -158,11 +240,93 @@
                     <master_item/>
                 </item>
                 <item>
+                    <name>BBU</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.BBU.temp</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>°C</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>BBU</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Temperature</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>BMC 1.2V</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.BMC12V</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>volt</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>BMC 1.2V</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Voltage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
                     <name>CPU1</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.cpu1.temp</key>
+                    <key>ipmi.CPU1.temp</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -203,7 +367,7 @@
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.cpu2.temp</key>
+                    <key>ipmi.CPU2.temp</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -240,93 +404,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>CPU1 1.8V</name>
+                    <name>CPU3</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.CPU118V</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>volt</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>CPU1 1.8V</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Voltage</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>CPU2 1.8V</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.CPU218V</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>volt</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>CPU2 1.8V</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Voltage</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-1A</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-1A</key>
+                    <key>ipmi.CPU3.temp</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -342,7 +424,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>DIMM-1A</ipmi_sensor>
+                    <ipmi_sensor>CPU3</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -363,11 +445,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>DIMM-1B</name>
+                    <name>CPU4</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.DIMM-1B</key>
+                    <key>ipmi.CPU4.temp</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -383,7 +465,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>DIMM-1B</ipmi_sensor>
+                    <ipmi_sensor>CPU4</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -395,703 +477,6 @@
                     <applications>
                         <application>
                             <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-1C</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-1C</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-1C</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-1D</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-1D</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-1D</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-1E</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-1E</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-1E</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-1F</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-1F</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-1F</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-2A</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-2A</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-2A</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-2B</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-2B</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-2B</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-2C</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-2C</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-2C</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-2D</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-2D</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-2D</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-2E</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-2E</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-2E</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-2F</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-2F</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-2F</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-3A</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-3A</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-3A</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-3B</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-3B</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-3B</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-3C</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-3C</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-3C</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-3D</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-3D</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-3D</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-3E</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-3E</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-3E</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>DIMM-3F</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.DIMM-3F</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>°C</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>DIMM-3F</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Temperature</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>FAN1 SYS</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.FAN1</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>rpm</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>FAN1 SYS</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Fans</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -1183,11 +568,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>FAN2 SYS</name>
+                    <name>FAN1 PSU3</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.FAN2</key>
+                    <key>ipmi.FAN1PSU3</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1203,7 +588,130 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>FAN2 SYS</ipmi_sensor>
+                    <ipmi_sensor>FAN1 PSU3</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN1 PSU4</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN1PSU4</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN1 PSU4</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN1 SYS</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN1SYS</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN1 SYS</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN2 PSU1</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN2PSU1</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN2 PSU1</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -1265,11 +773,298 @@
                     <master_item/>
                 </item>
                 <item>
+                    <name>FAN2 PSU3</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN2PSU3</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN2 PSU3</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN2 PSU4</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN2PSU4</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN2 PSU4</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN2 SYS</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN2SYS</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN2 SYS</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN3 PSU1</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN3PSU1</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN3 PSU1</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN3 PSU2</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN3PSU2</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN3 PSU2</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN3 PSU3</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN3PSU3</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN3 PSU3</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN3 PSU4</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN3PSU4</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN3 PSU4</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
                     <name>FAN3 SYS</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.FAN3</key>
+                    <key>ipmi.FAN3SYS</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1306,11 +1101,175 @@
                     <master_item/>
                 </item>
                 <item>
+                    <name>FAN4 PSU1</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN4PSU1</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN4 PSU1</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN4 PSU2</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN4PSU2</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN4 PSU2</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN4 PSU3</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN4PSU3</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN4 PSU3</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>FAN4 PSU4</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.FAN4PSU4</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>rpm</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>FAN4 PSU4</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Fans</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
                     <name>FAN4 SYS</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.FAN4</key>
+                    <key>ipmi.FAN4SYS</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1351,7 +1310,7 @@
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.FAN5</key>
+                    <key>ipmi.FAN5SYS</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1392,7 +1351,7 @@
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.FAN6</key>
+                    <key>ipmi.FAN6SYS</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1433,7 +1392,7 @@
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.FAN7</key>
+                    <key>ipmi.FAN7SYS</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1474,7 +1433,7 @@
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.FAN8</key>
+                    <key>ipmi.FAN8SYS</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1502,211 +1461,6 @@
                     <applications>
                         <application>
                             <name>Fans</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>FAN9 SYS</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.FAN9</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>rpm</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>FAN9 SYS</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Fans</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>FAN10 SYS</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.FAN10</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>rpm</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>FAN10 SYS</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Fans</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>FAN11 SYS</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.FAN11</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>rpm</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>FAN11 SYS</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Fans</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>FAN12 SYS</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.FAN12</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>rpm</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>FAN12 SYS</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Fans</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>ICH 1.5V</name>
-                    <type>12</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>ipmi.ICH15V</key>
-                    <delay>300</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>volt</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor>ICH 1.5V</ipmi_sensor>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Voltage</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -1757,11 +1511,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>IOH 1.1V AUX</name>
+                    <name>IOH 1.5V</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.IOH11VAUX</key>
+                    <key>ipmi.IOH15V</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1777,7 +1531,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>IOH 1.1V AUX</ipmi_sensor>
+                    <ipmi_sensor>IOH 1.5V</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -1839,11 +1593,52 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>iRMC 1.2V STBY</name>
+                    <name>I/O Riser</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.iRMC12VSTBY</key>
+                    <key>ipmi.IORiser.temp</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>°C</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>I/O Riser</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Temperature</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>LAN 1.0V</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.LAN10V</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1859,7 +1654,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>iRMC 1.2V STBY</ipmi_sensor>
+                    <ipmi_sensor>LAN 1.0V</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -1880,11 +1675,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>iRMC 1.8V STBY</name>
+                    <name>Main 1.1V STBY</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.iRMC18VSTBY</key>
+                    <key>ipmi.Main11VSTBY</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1900,7 +1695,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>iRMC 1.8V STBY</ipmi_sensor>
+                    <ipmi_sensor>Main 1.1V STBY</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -1921,11 +1716,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>LAN 1.0V STBY</name>
+                    <name>Main 12V</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.LAN10VSTBY</key>
+                    <key>ipmi.Main12V</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1941,7 +1736,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>LAN 1.0V STBY</ipmi_sensor>
+                    <ipmi_sensor>Main 12V</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -1962,11 +1757,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>LAN 1.8V STBY</name>
+                    <name>Main 1.8V</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.LAN18VSTBY</key>
+                    <key>ipmi.Main18V</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -1982,7 +1777,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>LAN 1.8V STBY</ipmi_sensor>
+                    <ipmi_sensor>Main 1.8V</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -2003,11 +1798,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>MAIN 5V</name>
+                    <name>Main 3.3V</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.MAIN5V</key>
+                    <key>ipmi.Main33V</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2023,7 +1818,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>MAIN 5V</ipmi_sensor>
+                    <ipmi_sensor>Main 3.3V</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -2044,11 +1839,11 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>MAIN 12V</name>
+                    <name>Main 3.3V STBY</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.MAIN12V</key>
+                    <key>ipmi.Main33VSTBY</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
@@ -2064,7 +1859,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>MAIN 12V</ipmi_sensor>
+                    <ipmi_sensor>Main 3.3V STBY</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -2085,18 +1880,18 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>MAIN 3.3V</name>
+                    <name>MEM CPU1</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.MAIN33V</key>
+                    <key>ipmi.MEMCPU1.temp</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>volt</units>
+                    <units>°C</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -2105,7 +1900,171 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>MAIN 3.3V</ipmi_sensor>
+                    <ipmi_sensor>MEM CPU1</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Temperature</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>MEM CPU2</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.MEMCPU2.temp</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>°C</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>MEM CPU2</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Temperature</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>MEM CPU3</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.MEMCPU3.temp</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>°C</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>MEM CPU3</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Temperature</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>MEM CPU4</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.MEMCPU4.temp</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>°C</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>MEM CPU4</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Temperature</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>PSU1 AC</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.PSU1AC</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>amp</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>PSU1 AC</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -2137,7 +2096,7 @@
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>Watts</units>
+                    <units>watt</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -2167,6 +2126,47 @@
                     <master_item/>
                 </item>
                 <item>
+                    <name>PSU2 AC</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.PSU2AC</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>amp</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>PSU2 AC</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Voltage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
                     <name>PSU2 Power</name>
                     <type>12</type>
                     <snmp_community/>
@@ -2178,7 +2178,7 @@
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>Watts</units>
+                    <units>watt</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -2208,18 +2208,18 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>STBY 3.3V</name>
+                    <name>PSU3 AC</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.STBY33V</key>
+                    <key>ipmi.PSU3AC</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>volt</units>
+                    <units>amp</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -2228,7 +2228,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>STBY 3.3V</ipmi_sensor>
+                    <ipmi_sensor>PSU3 AC</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -2249,18 +2249,18 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Systemboard</name>
+                    <name>PSU3 Power</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.Systemboard</key>
+                    <key>ipmi.PSU3Power</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>°C</units>
+                    <units>watt</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -2269,7 +2269,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>Systemboard</ipmi_sensor>
+                    <ipmi_sensor>PSU3 Power</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -2280,7 +2280,89 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Temperature</name>
+                            <name>Watts</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>PSU4 AC</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.PSU4AC</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>amp</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>PSU4 AC</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Voltage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>PSU4 Power</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.PSU4Power</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>watt</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>PSU4 Power</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Watts</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -2301,7 +2383,7 @@
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>Watts</units>
+                    <units>watt</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -2331,18 +2413,18 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Total Power Out</name>
+                    <name>VIO CPU 1/2</name>
                     <type>12</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>ipmi.TotalPowerOut</key>
+                    <key>ipmi.VIOCPU12</key>
                     <delay>300</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>Watts</units>
+                    <units>volt</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -2351,7 +2433,7 @@
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <params/>
-                    <ipmi_sensor>Total Power Out</ipmi_sensor>
+                    <ipmi_sensor>VIO CPU 1/2</ipmi_sensor>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -2362,7 +2444,48 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Watts</name>
+                            <name>Voltage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
+                </item>
+                <item>
+                    <name>VIO CPU 3/4</name>
+                    <type>12</type>
+                    <snmp_community/>
+                    <snmp_oid/>
+                    <key>ipmi.VIOCPU34</key>
+                    <delay>300</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>volt</units>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <params/>
+                    <ipmi_sensor>VIO CPU 3/4</ipmi_sensor>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Voltage</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -2381,7 +2504,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Fujitsu PRIMERGY RX200 S6:ipmi.cpu1.temp.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.cpu2.temp.last()}&gt;70</expression>
+            <expression>{Fujitsu PRIMERGY RX600 S6:ipmi.CPU1.temp.last()}&gt;75 or {Fujitsu PRIMERGY RX600 S6:ipmi.CPU2.temp.last()}&gt;75 or {Fujitsu PRIMERGY RX600 S6:ipmi.CPU3.temp.last()}&gt;75 or {Fujitsu PRIMERGY RX600 S6:ipmi.CPU4.temp.last()}&gt;75</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>CPU temperature critical on {HOSTNAME}</name>
@@ -2397,26 +2520,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-1A.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-1B.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-1C.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-1D.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-1E.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-1F.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-2A.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-2B.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-2C.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-2D.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-2E.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-2F.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-3A.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-3B.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-3C.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-3D.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-3E.last()}&gt;70 or {Fujitsu PRIMERGY RX200 S6:ipmi.DIMM-3F.last()}&gt;70</expression>
+            <expression>{Fujitsu PRIMERGY RX600 S6:ipmi.MEMCPU1.temp.last()}&gt;70 or {Fujitsu PRIMERGY RX600 S6:ipmi.MEMCPU2.temp.last()}&gt;70 or {Fujitsu PRIMERGY RX600 S6:ipmi.MEMCPU3.temp.last()}&gt;70 or {Fujitsu PRIMERGY RX600 S6:ipmi.MEMCPU4.temp.last()}&gt;70</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>DIMM temperature critical on {HOSTNAME}</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>2</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Fujitsu PRIMERGY RX200 S6:ipmi.FAN1.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN1.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN2.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN2.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN3.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN3.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN4.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN4.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN5.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN6.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN7.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN7.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN8.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN8.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN9.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN9.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN10.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN10.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN11.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN11.last()}&lt;100 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN12.last()}&gt;9000 or {Fujitsu PRIMERGY RX200 S6:ipmi.FAN12.last()}&lt;100</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Fan critical on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -2429,7 +2536,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Fujitsu PRIMERGY RX200 S6:ipmi.PSU1Power.last()}&lt;1 or {Fujitsu PRIMERGY RX200 S6:ipmi.PSU2Power.last()}&lt;1</expression>
+            <expression>{Fujitsu PRIMERGY RX600 S6:ipmi.PSU1Power.last()}&lt;1 or {Fujitsu PRIMERGY RX600 S6:ipmi.PSU2Power.last()}&lt;1 or {Fujitsu PRIMERGY RX600 S6:ipmi.PSU3Power.last()}&lt;1 or {Fujitsu PRIMERGY RX600 S6:ipmi.PSU4Power.last()}&lt;1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Power supply issue on {HOSTNAME}</name>
@@ -2445,10 +2552,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Fujitsu PRIMERGY RX200 S6:ipmi.Systemboard.last()}&gt;50</expression>
+            <expression>{Fujitsu PRIMERGY RX600 S6:ipmi.Baseboard1.temp.last()}&gt;60 or {Fujitsu PRIMERGY RX600 S6:ipmi.Baseboard2.temp.last()}&gt;60</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>System temperature critical on  {HOSTNAME}</name>
+            <name>System temperature critical on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -2461,7 +2568,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Fujitsu PRIMERGY RX200 S6:icmpping.sum(10)}=0</expression>
+            <expression>{Fujitsu PRIMERGY RX600 S6:icmpping.sum(10)}=0</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>{HOST.NAME} IRMC not online</name>
@@ -2504,8 +2611,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.cpu1.temp</key>
+                        <host>Fujitsu PRIMERGY RX600 S6</host>
+                        <key>ipmi.CPU1.temp</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -2516,14 +2623,38 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.cpu2.temp</key>
+                        <host>Fujitsu PRIMERGY RX600 S6</host>
+                        <key>ipmi.CPU2.temp</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>2774A4</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Fujitsu PRIMERGY RX600 S6</host>
+                        <key>ipmi.CPU3.temp</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>A54F10</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Fujitsu PRIMERGY RX600 S6</host>
+                        <key>ipmi.CPU4.temp</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>DIMM temperature</name>
+            <name>DIMM Temperature</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -2548,8 +2679,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-1B</key>
+                        <host>Fujitsu PRIMERGY RX600 S6</host>
+                        <key>ipmi.MEMCPU1.temp</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -2560,8 +2691,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-1A</key>
+                        <host>Fujitsu PRIMERGY RX600 S6</host>
+                        <key>ipmi.MEMCPU2.temp</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -2572,8 +2703,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-1B</key>
+                        <host>Fujitsu PRIMERGY RX600 S6</host>
+                        <key>ipmi.MEMCPU3.temp</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -2584,188 +2715,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-1C</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>4</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>FC6EA3</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-1D</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>5</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>6C59DC</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-1E</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>6</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>AC8C14</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-1F</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>7</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>611F27</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-2A</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>8</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>F230E0</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-2B</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>9</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>5CCD18</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-2C</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>10</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>BB2A02</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-2D</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>11</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>5A2B57</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-2E</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>12</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>89ABF8</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-2F</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>13</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>7EC25C</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-3A</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>14</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>274482</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-3B</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>15</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>2B5429</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-3C</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>16</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>8048B4</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-3D</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>17</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>FD5434</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-3E</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>18</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>790E1F</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Fujitsu PRIMERGY RX200 S6</host>
-                        <key>ipmi.DIMM-3F</key>
+                        <host>Fujitsu PRIMERGY RX600 S6</host>
+                        <key>ipmi.MEMCPU4.temp</key>
                     </item>
                 </graph_item>
             </graph_items>
